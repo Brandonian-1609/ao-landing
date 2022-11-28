@@ -63,6 +63,13 @@ h6 {
 /*--------------------------------------------------------------
 # Sections & Section Header
 --------------------------------------------------------------*/
+.cbg {
+    background-image: url('../img/Branded-Semi-Truck-On-Road.webp'); 
+    background-size: cover;
+    width: 100%;
+    
+}
+
 section {
   padding: 60px 0;
   overflow: hidden;
@@ -289,6 +296,7 @@ section {
   color: #fff;
   padding: 0;
 }
+
 
 .topbar .contact-info i {
   font-style: normal;
@@ -654,7 +662,7 @@ section {
 --------------------------------------------------------------*/
 .features{ 
     position: relative; 
-    height: 55vh;
+    height: 45vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -697,13 +705,13 @@ section {
 }
 
 .features_tile {
-    margin-top: -13%;
+    margin-top: -15%;
 }
 
 
 @media (min-width: 1200px) {
   .features_tile .icon-boxes:before {
-    content: "";
+    content: ;
     bottom: 0;
     left: 0;
     right: 0;
@@ -923,11 +931,11 @@ section {
 # Clients Section
 --------------------------------------------------------------*/
 .clients {
-  padding: 40px 0;
+  padding: 20px 0;
 }
 
 .clients .swiper {
-  padding: 10px 0;
+  padding: 5px 0;
 }
 
 .clients .swiper-slide img {
@@ -944,8 +952,8 @@ section {
 }
 
 .clients .swiper-pagination .swiper-pagination-bullet {
-  width: 12px;
-  height: 12px;
+  width: 6px;
+  height: 6px;
   background-color: #ff3b3f;
   opacity: 1;
   background-color: #ff3b3f;
@@ -1445,7 +1453,7 @@ section {
     left: 0;
     right: 0;
     height: calc(50% + 20px);
-    background-color: #fff;
+    
   }
 }
 
@@ -2276,8 +2284,7 @@ color: var(--color-default);
 .hero {
   width: 100%;
   position: relative;
-  background: var(--color-primary);
-  padding: 60px 0 0 0;
+  padding: 0px 0 0 0;
 }
 
 @media (min-width: 1365px) {
@@ -2313,17 +2320,17 @@ color: var(--color-default);
     text-align: left;
 }
 
-.hero .btn-get-started {
+.btn-get-started {
   font-family: var(--font-primary);
   font-weight: 500;
   font-size: 15px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 14px 40px;
+  padding: 7px 20px;
   border-radius: 7px;
   transition: 0.3s;
   color: #fff;
-  background-image: linear-gradient(#ff3b3f, #CE2E31 );
+  background-color: #ff3b3f;
   box-shadow: 0 0 15px rgba(0, 0, 0, 0.08);
   border: 2px solid rgba(255, 255, 255, 0.1);
 }
@@ -2363,12 +2370,12 @@ color: var(--color-default);
   }
 }
 
-.hero .icon-boxes {
+.icon-boxes {
   padding-bottom: 60px;
 }
 
 @media (min-width: 1200px) {
-  .hero .icon-boxes:before {
+.icon-boxes:before {
     content: "";
     bottom: 0;
     left: 0;
@@ -2378,7 +2385,7 @@ color: var(--color-default);
   }
 }
 
-.hero .icon-box {
+ .icon-box {
   padding: 60px 30px;
   overflow: hidden;
   background: var(--color-primary);
